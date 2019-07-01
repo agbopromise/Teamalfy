@@ -1,0 +1,93 @@
+#message{
+  line-height: 0.5;
+  padding: 0px;
+}
+
+#subscription{
+  padding-top: 7%;
+  padding-bottom: 2%;
+  text-decoration-line: underline;
+  /* padding-left: 260px; */
+}
+#footer{
+  margin-top: 0;
+  padding-top:7%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+
+.line{
+  /* animation: type 3s steps(120); */
+  white-space: nowrap;
+  /*   overflow: hidden; */
+  line-height: 1.5px;
+  padding-top:  1%;
+
+}
+@keyframes type
+{
+  0%{
+    width: 20ch;
+  }
+  100%{
+    width: 120ch;
+  }
+}
+.logo1{
+  height: 50px;
+  width: 50px
+}
+.logo2{
+  height: 80px;
+  width: 80px;
+}
+::placeholder{
+  background-color: black;
+  border-style:groove;
+  text-decoration: underline;
+  border-color: black;
+}
+.headnote{
+  animation: type 3s steps(120);
+  white-space: nowrap;
+  overflow: hidden;
+  padding-top:  5%;
+  /* padding: 5% 8% 5%; */
+}
+@keyframes type
+{
+  10%{
+    width: 20ch;
+  }
+  100%{
+    width: 120ch;
+  }
+}
+.footlink{
+margin: 0;
+padding: 0;
+}
+.nav-item{
+  color: white;
+}
+.container-fluid{
+padding:0;
+}
+h1{
+
+  font-family: 'Nanum Gothic', sans-serif;
+  color: white;
+  font-size: 5rem;
+}
+
+
+p{
+  font-family: 'Karla', sans-serif;
+  text-height: 0.5;
+  color: white;
+  font-weight: 100;
+}
